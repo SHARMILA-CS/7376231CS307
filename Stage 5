@@ -1,0 +1,2 @@
+The process of saving to DB as well as sending the email should not happen together.
+First email is sent then it should be saved to db.
