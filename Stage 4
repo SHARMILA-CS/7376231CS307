@@ -1,0 +1,3 @@
+I would not allow the page to re render everytime which causes a bad user experience.
+Using React reduces loading time.
+Using REact improves performance.
