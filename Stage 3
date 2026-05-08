@@ -1,0 +1,9 @@
+Stage 3
+No the given query is not accurate and computation cost is very high. 
+I would add indexes on every column.
+Yes, adding indexes on every column is an effective advice. This is because it speeds up the process and reduces the computation cost.
+Query to find all students who got a placement notification in the last 7 days is :
+    SELECT * FROM notifications 
+    WHERE isNotification = true
+    LIMIT BY 7;
+
